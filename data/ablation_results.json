@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "time": "2026-06-24T16:14:09.630366",
+    "thresholds": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ]
+  },
+  "results": [
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": null,
+      "strategy": "agent_no_qa",
+      "num_papers": 31,
+      "tokens": 6071,
+      "rounds": 3,
+      "quality_history": [],
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": 0.05,
+      "strategy": "agent_qa",
+      "num_papers": 31,
+      "tokens": 6873,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 45,
+          "c": 40,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 35,
+          "c": 25,
+          "rec": "continue",
+          "dr": false
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=35, coverage=25): 质量增长停滞 (gain=-0.22): 当前论文虽包含TruthfulQA、RAG、验证器等与幻觉相关的经典工作，但大部分论文（如CLIP、Codex、Imagen、BLIP-2）与查询主题无关，相关性极低。覆盖方面狭窄，仅涉及检测、RAG和推理验证，缺少幻觉分类、缓解、评估等关键子主题。权威性尚可但相关性不足，整体质量低于40且论文数量充足但有效论文少，建议继续搜索以获取更聚焦的幻觉研究。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": 0.1,
+      "strategy": "agent_qa",
+      "num_papers": 32,
+      "tokens": 6861,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 40,
+          "c": 30,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 35,
+          "c": 25,
+          "rec": "continue",
+          "dr": false
+        }
+      ],
+      "final_summary": "在 6861 token 预算内搜索了 32 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": 0.15,
+      "strategy": "agent_qa",
+      "num_papers": 31,
+      "tokens": 6875,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 65,
+          "c": 55,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 45,
+          "c": 40,
+          "rec": "continue",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=45, coverage=40): 质量增长停滞 (gain=-0.31): 当前论文虽包含一些与幻觉相关的经典工作（如RAG、TruthfulQA），但大量论文（如CLIP、Codex、Imagen、BLIP-2）与查询主题无关，相关性较低。覆盖方面较窄，主要集中于检索增强和推理验证，缺少对幻觉成因、最新缓解技术及特定领域应用的覆盖。尽管权威性较高，但相关性不足，且新增论文多为不相关或重复主题，边际收益递减。建议继续搜索以补充更直接相关和最新的研究。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": 0.2,
+      "strategy": "agent_qa",
+      "num_papers": 31,
+      "tokens": 6868,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 60,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 45,
+          "c": 30,
+          "rec": "continue",
+          "dr": false
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=45, coverage=30): 质量增长停滞 (gain=-0.40): 虽然已有31篇论文，但其中大量论文（如CLIP、Imagen、Codex、BLIP-2等）与幻觉问题无直接关联，实际相关论文仅约4-5篇。覆盖的方面有限，且缺乏对最新（2024-2025年）幻觉研究进展的覆盖。权威性尚可但相关性不足，建议继续搜索以获取更聚焦、更新的幻觉研究论文。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "S1",
+      "query": "大语言模型的幻觉问题最新研究",
+      "threshold": 0.3,
+      "strategy": "agent_qa",
+      "num_papers": 31,
+      "tokens": 6882,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 65,
+          "c": 55,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 45,
+          "c": 40,
+          "rec": "continue",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=45, coverage=40): 质量增长停滞 (gain=-0.31): 虽然论文整体权威性较高（包含TruthfulQA、SelfCheckGPT等直接相关论文），但31篇论文中大量为多模态、代码生成等不直接相关的工作，真正聚焦LLM幻觉的论文不足10篇。覆盖了检测和部分缓解方法，但遗漏了幻觉成因、最新缓解技术（如DoLa、CAD）等关键方面。当前轮次新增论文相关性低，递减回报明显，但整体质量未达60分且核心方面未覆盖，建议继续搜索以补充幻觉专题论文。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": null,
+      "strategy": "agent_no_qa",
+      "num_papers": 22,
+      "tokens": 6113,
+      "rounds": 3,
+      "quality_history": [],
+      "judge": {
+        "relevance": {
+          "score": 4,
+          "reasoning": "大部分论文（如[1][3][5][7][9][10][14][15]）直接涉及视觉-语言对齐方法，但[4][8][13]主要关注代码生成或检索，与对齐方法比较的查询相关性较低。"
+        },
+        "coverage": {
+          "score": 3,
+          "reasoning": "覆盖了CLIP、BLIP系列、LLaVA、Flamingo等主流对齐方法，但缺少对最新方法（如Qwen-VL、CogVLM）和对比学习、掩码建模等具体对齐策略的细分覆盖。"
+        },
+        "authority": {
+          "score": 5,
+          "reasoning": "论文主要来自NeurIPS、ICML、CVPR、ECCV等顶会/顶刊，且引用量高（如CLIP 15000+、BLIP 4000+），权威性极强。"
+        },
+        "overall": {
+          "score": 4,
+          "reasoning": "整体质量高，权威性突出，但覆盖范围略有不足且包含少量不相关论文，综合表现优秀。"
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": 0.05,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 2989,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 60,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=75, coverage=60): 质量评估建议停止 (relevance=75): 已有论文覆盖了CLIP、BLIP-2、LLaVA、Flamingo、Oscar、ALBEF等主流对齐方法，权威性高（多篇顶会高引论文）。虽然缺少系统性的比较分析和一些细粒度讨论，但核心方法已基本覆盖。第13、14、15篇论文与查询主题相关性明显下降，新增论文的边际收益递减。建议停止搜索，基于现有论文进行综述性分析。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": 0.1,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 2992,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 70,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=75, coverage=70): 质量评估建议停止 (relevance=75): 已有论文覆盖了多模态对齐的主要经典方法（CLIP、BLIP、LLaVA等），权威性高（高引论文多），且覆盖了对比学习、轻量级桥接、端到端融合等多个方面。虽然缺少系统性的比较分析论文，但核心方法已基本覆盖，继续搜索的边际收益递减。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": 0.15,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 2992,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 70,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=75, coverage=70): 质量评估建议停止 (relevance=75): 已有论文覆盖了CLIP、BLIP-2、LLaVA、Flamingo、ALBEF、Oscar等主流对齐方法，权威性高（多篇顶会高引论文）。覆盖了对比学习、轻量级桥接、端到端融合等主要方面，但缺少对不同方法的系统性比较和理论分析。考虑到已搜索1轮且论文数量充足（20篇），新增论文的边际收益递减，建议停止搜索。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": 0.2,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 2992,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 70,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=75, coverage=70): 质量评估建议停止 (relevance=75): 已有论文覆盖了多模态对齐的主要经典方法（CLIP、BLIP、LLaVA等），权威性高（高引论文多），覆盖了对比学习、轻量级适配、端到端训练等多个方面。虽然缺少定量比较和最新进展，但核心方法已基本覆盖，且新增论文的边际收益递减。建议停止搜索，基于现有结果进行综合分析。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M2",
+      "query": "多模态大模型中视觉和语言的对齐方法比较",
+      "threshold": 0.3,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 2992,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 75,
+          "c": 65,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=75, coverage=65): 质量评估建议停止 (relevance=75): 已有论文覆盖了CLIP、BLIP、LLaVA等主流对齐方法，且包含多篇高引顶会论文，权威性高。虽然缺少对不同方法在细粒度任务上的系统比较，但核心方法已覆盖，且新增论文（如LoRA、InstructGPT）与查询主题相关性下降，边际收益递减。建议停止搜索，基于现有论文进行综述分析。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": null,
+      "strategy": "agent_no_qa",
+      "num_papers": 23,
+      "tokens": 6095,
+      "rounds": 3,
+      "quality_history": [],
+      "judge": {
+        "relevance": {
+          "score": 5
+        },
+        "coverage": {
+          "score": 4
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 5
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": 0.05,
+      "strategy": "agent_qa",
+      "num_papers": 23,
+      "tokens": 6896,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 85,
+          "c": 70,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 90,
+          "c": 85,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=90, coverage=85): 质量评估建议停止 (relevance=90): 已有23篇论文，覆盖了对比学习和掩码建模的主要方法、综述及增强策略，权威性高（多篇顶会高引论文）。虽然缺少直接的效果对比实验和理论分析，但主要方面已覆盖，且连续两轮新增论文数量少，边际收益递减。建议停止搜索，基于现有文献进行综合分析。",
+      "judge": {
+        "relevance": {
+          "score": 5
+        },
+        "coverage": {
+          "score": 4
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 5
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": 0.1,
+      "strategy": "agent_qa",
+      "num_papers": 23,
+      "tokens": 6921,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 50,
+          "c": 50,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 85,
+          "c": 70,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=85, coverage=70): 质量评估建议停止 (relevance=85): 已有23篇论文，覆盖了对比学习和掩码建模的主要框架及综述，权威性高（多篇顶会高引论文）。虽然缺少直接对比实验的论文，但核心方法已覆盖全面，新增论文的边际收益递减。建议停止搜索，基于现有文献进行综合分析。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": 0.15,
+      "strategy": "agent_qa",
+      "num_papers": 21,
+      "tokens": 6934,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 85,
+          "c": 70,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 90,
+          "c": 85,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=90, coverage=85): 质量评估建议停止 (relevance=90): 当前已收集21篇高质量论文，覆盖了对比学习和掩码建模的主要方法、框架及综述，权威性高（多篇顶会高引论文）。虽然缺少直接对比两种范式的实验性论文，但已有论文已足够支撑综述性分析。连续两轮新增论文数量少且质量边际递减，建议停止搜索，基于现有材料进行综合对比分析。",
+      "judge": {
+        "relevance": {
+          "score": 5
+        },
+        "coverage": {
+          "score": 4
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 5
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": 0.2,
+      "strategy": "agent_qa",
+      "num_papers": 24,
+      "tokens": 6886,
+      "rounds": 2,
+      "quality_history": [
+        {
+          "r": 85,
+          "c": 70,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 85,
+          "c": 75,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=85, coverage=75): 质量评估建议停止 (relevance=85): 当前论文已覆盖对比学习和掩码建模在GNN预训练中的主要方法及综述，权威性高（含顶会高引论文），覆盖了核心方面。虽然缺少直接对比实验的论文，但已有论文足以支撑对比分析。连续两轮新增论文较少，且质量分已达85，继续搜索边际收益递减，建议停止。",
+      "judge": {
+        "relevance": {
+          "score": 4
+        },
+        "coverage": {
+          "score": 3
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "query_id": "M3",
+      "query": "对比学习和掩码建模在图神经网络自监督预训练中的效果对比",
+      "threshold": 0.3,
+      "strategy": "agent_qa",
+      "num_papers": 20,
+      "tokens": 3007,
+      "rounds": 1,
+      "quality_history": [
+        {
+          "r": 85,
+          "c": 70,
+          "rec": "stop",
+          "dr": true
+        }
+      ],
+      "final_summary": "质量感知停止 (relevance=85, coverage=70): 质量评估建议停止 (relevance=85): 当前已收集20篇论文，覆盖了对比学习和掩码建模的主要方法、增强策略和综述，权威性高（包含顶会高引论文）。虽然缺少直接的效果对比研究，但已有论文已足够支撑对两种范式各自原理和应用的深入分析。新增论文的边际收益递减，建议停止搜索，基于现有资料进行综合分析。",
+      "judge": {
+        "relevance": {
+          "score": 5
+        },
+        "coverage": {
+          "score": 4
+        },
+        "authority": {
+          "score": 5
+        },
+        "overall": {
+          "score": 5
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": null,
+      "strategy": "agent_no_qa",
+      "num_papers": 22,
+      "tokens": 6110,
+      "rounds": 3,
+      "quality_history": [],
+      "judge": {
+        "relevance": {
+          "score": 2,
+          "reasoning": "查询要求的是“知识编辑与对比解码在缓解大模型幻觉中的联合应用”，但结果中仅[1]和[2]涉及对比解码，[3][5][7][12][14]涉及幻觉检测或缓解，但均未涉及知识编辑，更无两者的联合应用。大量论文（如[8]-[11][13][15]）与查询主题完全无关（如程序合成、多模态预训练）。整体相关性低。"
+        },
+        "coverage": {
+          "score": 1,
+          "reasoning": "查询的两个核心子主题是“知识编辑”和“对比解码”及其联合应用。结果中完全没有覆盖知识编辑相关论文（如KE、MEND、ROME等），对比解码仅覆盖2篇（[1][2]），且无任何论文讨论两者的联合。覆盖范围严重不足。"
+        },
+        "authority": {
+          "score": 3,
+          "reasoning": "结果中包含多篇高引论文（如[2]引310、[3]引450、[5]引580），且部分来自顶会（ICLR、EMNLP、ACL）。但大量无关论文（如[8]-[11][13][15]）也来自顶会，拉低了有效权威性。仅考虑相关论文时，权威性尚可，但整体因无关论文过多而受影响。"
+        },
+        "overall": {
+          "score": 2,
+          "reasoning": "综合来看，结果与查询主题严重偏离，覆盖缺失关键子主题，权威性因无关论文而稀释。整体表现差，无法满足查询需求。"
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": 0.05,
+      "strategy": "agent_qa",
+      "num_papers": 22,
+      "tokens": 6890,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 25,
+          "c": 15,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 15,
+          "c": 10,
+          "rec": "continue",
+          "dr": true
+        }
+      ],
+      "final_summary": "在 6890 token 预算内搜索了 22 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 2
+        },
+        "coverage": {
+          "score": 1
+        },
+        "authority": {
+          "score": 3
+        },
+        "overall": {
+          "score": 2
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": 0.1,
+      "strategy": "agent_qa",
+      "num_papers": 25,
+      "tokens": 6922,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 25,
+          "c": 15,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 15,
+          "c": 5,
+          "rec": "continue",
+          "dr": false
+        }
+      ],
+      "final_summary": "在 6922 token 预算内搜索了 25 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 2,
+          "reasoning": "查询要求的是“知识编辑与对比解码的联合应用”，但结果中仅有[1]和[2]涉及对比解码，且[2]是核心相关。其余论文（如[3][5][7]）主要关注幻觉检测或缓解，但未涉及知识编辑或两者的联合。大量结果（如[8]-[15]）与查询主题无关，包括视觉模型、程序合成等。"
+        },
+        "coverage": {
+          "score": 1,
+          "reasoning": "查询的两个核心子主题是“知识编辑”和“对比解码”及其联合应用。结果中完全没有覆盖“知识编辑”相关论文（如模型编辑、知识更新等），对比解码仅有两篇，且无任何论文讨论两者的联合。主要子主题严重缺失。"
+        },
+        "authority": {
+          "score": 3,
+          "reasoning": "虽然部分论文来自顶会（如ICLR、EMNLP、ACL）且引用较高（如[2] 310次，[5] 580次），但大量无关论文（如[8]-[13]）也来自顶会，拉低了整体权威性。相关论文的权威性尚可，但无关论文占比过高。"
+        },
+        "overall": {
+          "score": 2,
+          "reasoning": "整体表现较差。相关性低，覆盖严重不足，权威性因无关论文多而受影响。仅对比解码部分有少量相关，但知识编辑和联合应用完全缺失。"
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": 0.15,
+      "strategy": "agent_qa",
+      "num_papers": 22,
+      "tokens": 6887,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 25,
+          "c": 15,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 15,
+          "c": 5,
+          "rec": "continue",
+          "dr": true
+        }
+      ],
+      "final_summary": "在 6887 token 预算内搜索了 22 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 2
+        },
+        "coverage": {
+          "score": 1
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 2
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": 0.2,
+      "strategy": "agent_qa",
+      "num_papers": 22,
+      "tokens": 6898,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 25,
+          "c": 15,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 15,
+          "c": 5,
+          "rec": "continue",
+          "dr": false
+        }
+      ],
+      "final_summary": "在 6898 token 预算内搜索了 22 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 2
+        },
+        "coverage": {
+          "score": 1
+        },
+        "authority": {
+          "score": 4
+        },
+        "overall": {
+          "score": 2
+        }
+      }
+    },
+    {
+      "query_id": "H1",
+      "query": "知识编辑与对比解码在缓解大模型幻觉中的联合应用",
+      "threshold": 0.3,
+      "strategy": "agent_qa",
+      "num_papers": 25,
+      "tokens": 6885,
+      "rounds": 3,
+      "quality_history": [
+        {
+          "r": 25,
+          "c": 15,
+          "rec": "continue",
+          "dr": false
+        },
+        {
+          "r": 15,
+          "c": 5,
+          "rec": "continue",
+          "dr": true
+        }
+      ],
+      "final_summary": "在 6885 token 预算内搜索了 25 篇论文",
+      "judge": {
+        "relevance": {
+          "score": 2
+        },
+        "coverage": {
+          "score": 1
+        },
+        "authority": {
+          "score": 3
+        },
+        "overall": {
+          "score": 2
+        }
+      }
+    }
+  ]
+}
