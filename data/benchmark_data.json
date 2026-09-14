@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "AcadSearch Local Benchmark v1.0",
-    "description": "Controlled local benchmark for reproducible academic search evaluation. Contains 5 domains x 10 papers = 50 papers with human-curated metadata.",
+    "description": "Controlled local benchmark for reproducible academic search evaluation. Contains 5 domains and 111 real papers with human-curated metadata.",
     "version": "1.1",
     "created": "2026-06-24",
     "num_domains": 5,
